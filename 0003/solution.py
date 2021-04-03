@@ -2,28 +2,24 @@
 
 import math
 
-def is_prime(n: int) -> bool:
-   if n <= 1:
-      return False
-   elif n == 2:
-      return True
-   elif n > 2 and n % 2 == 0:
-      return False
-   else:
-      for i in range(3, math.floor(math.sqrt(n)) + 1, 2):
-         if n % i == 0:
-            return False
-      return True
+def is_prime2(n: int) -> bool:
+    if n >= 2:
+        for i in range(2, n):
+            if not (n % i):
+                return False
+    else:
+	    return False
+    return True
 
 def prime_factors(n: int) -> []:
     primes = []
 
     for i in range(1, math.floor(math.sqrt(n)) + 1):
         if n % i == 0:
-            if is_prime(i):
+            if is_prime2(i):
                 primes.insert(0, i)
 
-    if is_prime(n):
+    if is_prime2(n):
         primes.append(i)
 
     return primes
