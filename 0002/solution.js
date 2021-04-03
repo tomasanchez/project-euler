@@ -8,6 +8,12 @@
  * @since 04.03.2021
  */
 
+/**
+ * Obtains the sum of all even fibonacci up to 4,000,000.
+ *
+ * @function
+ * @returns the sum of fibonacci number
+ */
 function solution() {
   var aNumbers = [];
 
