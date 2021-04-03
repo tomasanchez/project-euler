@@ -5,3 +5,4 @@ This repository contains resolutions to the exercises in [Project Euler](https:/
 ## Problems
 
 - [0001 - Mulltiples of 3 & 5](./0001/README.md)
+- [0002 - Even Fibonacci numbers](./0002/README.md)
