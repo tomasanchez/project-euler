@@ -11,10 +11,8 @@
 solution = () => {
   // First generate the array of 1000 elements
   Array.from(Array(1000).keys())
-    // As keys are 0, sum 1 to each
-    .map((x) => x + 1)
     // Filter all that are multiple of 5 & 3
-    .filter((x) => x % 5 === 0 && x % 3 === 0)
+    .filter((x) => x % 5 === 0 || x % 3 === 0)
     // Sum all of them
     .reduce((x, y) => x + y, 0);
 };
