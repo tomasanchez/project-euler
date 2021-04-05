@@ -12,4 +12,4 @@ This repository contains resolutions to the exercises in [Project Euler](https:/
 
 All material is provided under an MIT License unless otherwise specified.
 
-MIT License: <https://mit-license.org/> or see the [`LICENSE`](https://github.com/tomasanchez/so/blob/master/LICENSE) file.
+MIT License: <https://mit-license.org/> or see the [`LICENSE`](https://github.com/tomasanchez/project-euler/blob/master/LICENSE) file.
