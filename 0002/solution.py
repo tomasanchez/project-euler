@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+from functools import cache
+
+@cache
 def fib(bar: int) -> int:
     if bar < 2:
         return bar
